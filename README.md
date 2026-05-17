@@ -1,0 +1,1 @@
+This is an open-source integration of a cloud native sepp roaming scenario using open5GS and PacketRusher. More details in [sepp_roaming.md](https://github.com/panos-ece/sepp-roaming/blob/main/sepp_roaming.md) file
