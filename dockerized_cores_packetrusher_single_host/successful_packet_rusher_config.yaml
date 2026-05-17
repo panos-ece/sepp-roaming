@@ -1,0 +1,44 @@
+gnodeb:
+  controlif:
+    ip: "172.25.13.11"
+    port: 9487
+  dataif:
+    ip: "172.25.13.11"
+    port: 2152
+  plmnlist:
+    mcc: "999"
+    mnc: "70"
+    tac: "000001"
+    gnbid: "000001"
+  slicesupportlist:
+    sst: "01"
+
+ue:
+  msin: "0000000120"
+  key: "465B5CE8B199B49FAA5F0A2EE238A6BC"
+  opc: "E8ED289DEBA952E4283B54E88E6183CA"
+  amf: "8000"
+  sqn: "0000000"
+  dnn: "internet"
+  hplmn:
+    mcc: "001"
+    mnc: "01"
+  snssai:
+    sst: "01"
+  integrity:
+    nia0: false
+    nia1: false
+    nia2: true
+    nia3: false
+  ciphering:
+    nea0: true
+    nea1: false
+    nea2: true
+    nea3: false
+
+amfif:
+  - ip: "172.25.13.11"
+    port: 38412
+
+logs:
+  level: 4
